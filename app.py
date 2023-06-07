@@ -115,4 +115,9 @@ if st.button('Recommend'):
     with col5:
         st.text(names[9])
         st.image(posters[9])
+        
+    st.text(" ")
+    st.text(" ")
 
+    made_by = '<p style="font-style:italic; font-family:sans-serif; color:white; font-size: 15px; text-align: right">Made by Mukul Rawat</p>'
+    st.markdown(made_by, unsafe_allow_html=True)
